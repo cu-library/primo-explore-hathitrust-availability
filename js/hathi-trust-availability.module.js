@@ -118,7 +118,7 @@ angular
       };
 
       var isOclcNum = function(value) {
-        return value.match(/^(\(ocolc\))?\d+$/i);
+        return value.match(/^\(ocolc\).+/i);
       }
 
       var updateHathiTrustAvailability = function() {
